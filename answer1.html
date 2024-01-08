@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GAY</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="centered-text">
+        <p>YOU'RE A FAGGOT!!!!</p>
+    </div>
+
+    <script>
+        // Flashing background color effect
+        let flashing = setInterval(function() {
+            document.body.style.backgroundColor = getRandomColor();
+        }, 300); // Change color every 300 milliseconds
+
+        setTimeout(function() {
+            clearInterval(flashing);
+        }, 3000); // Stop after 3 seconds (3000 milliseconds)
+
+        function getRandomColor() {
+            const letters = '0123456789ABCDEF';
+            let color = '#';
+            for (let i = 0; i < 6; i++) {
+                color += letters[Math.floor(Math.random() * 16)];
+            }
+            return color;
+        }
+    </script>
+</body>
+
+</html>

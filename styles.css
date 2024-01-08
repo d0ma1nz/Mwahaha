@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+.centered-text p {
+    font-size: 48px;
+    color: white;
+}
